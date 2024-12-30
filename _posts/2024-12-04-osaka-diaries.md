@@ -32,17 +32,19 @@ When I first moved to Osaka, the very first place I visited was Osaka Castle, a 
 <!-- Group 1 -->
 <div class="spotlight-group">
     <a class="spotlight" href="/assets/img/osaka_diaries/osaka_castle.jpg">
-        <img src="/assets/img/osaka_diaries/osaka_castle.jpg" 
+        <img src="/assets/img/osaka_diaries/osaka_castle.jpg" loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
     <a class="spotlight" href="/assets/img/osaka_diaries/view.jpg">
-        <img src="/assets/img/osaka_diaries/view.jpg" 
+        <img src="/assets/img/osaka_diaries/view.jpg"
+        loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
     <a class="spotlight" href="/assets/img/osaka_diaries/stamp.jpg">
-        <img src="/assets/img/osaka_diaries/stamp.jpg" 
+        <img src="/assets/img/osaka_diaries/stamp.jpg"
+        loading="lazy"  
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
@@ -63,17 +65,20 @@ Osaka, like any Japanese city worth its salt, boasts a treasure trove of shrines
 <!-- Group 1 -->
 <div class="spotlight-group">
     <a class="spotlight" href="/assets/img/osaka_diaries/katsuoji.jpg">
-        <img src="/assets/img/osaka_diaries/katsuoji.jpg" 
+        <img src="/assets/img/osaka_diaries/katsuoji.jpg"
+        loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
     <a class="spotlight" href="/assets/img/osaka_diaries/minoh.jpg">
         <img src="/assets/img/osaka_diaries/minoh.jpg" 
+        loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
     <a class="spotlight" href="/assets/img/osaka_diaries/rainbow.jpg">
         <img src="/assets/img/osaka_diaries/rainbow.jpg" 
+        loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
@@ -97,16 +102,19 @@ But wait, there’s more! Just a little further up the trail is Katsuoji Temple,
 <div class="spotlight-group">
     <a class="spotlight" href="/assets/img/osaka_diaries/hill.jpg">
         <img src="/assets/img/osaka_diaries/hill.jpg" 
+        loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
     <a class="spotlight" href="/assets/img/osaka_diaries/event.jpg">
         <img src="/assets/img/osaka_diaries/event.jpg" 
+        loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
     <a class="spotlight" href="/assets/img/osaka_diaries/city.jpg">
         <img src="/assets/img/osaka_diaries/city.jpg" 
+        loading="lazy" 
         style="width: 20vw; min-width: 25px;"
         zoomable=true/>
     </a>
@@ -124,19 +132,25 @@ Kaiyukan Aquarium isn’t just an aquarium—it’s a full-blown underwater extr
 ---
 
 <!-- Group 1 -->
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/osaka_diaries/penguin.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/osaka_diaries/dolphin.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/osaka_diaries/alien.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
+<div class="spotlight-group">
+    <a class="spotlight" href="/assets/img/osaka_diaries/alien.jpg">
+        <img src="/assets/img/osaka_diaries/alien.jpg" 
+        loading="lazy" 
+        style="width: 20vw; min-width: 25px;"
+        zoomable=true/>
+    </a>
+    <a class="spotlight" href="/assets/img/osaka_diaries/dolphin.jpg">
+        <img src="/assets/img/osaka_diaries/dolphin.jpg" 
+        loading="lazy" 
+        style="width: 20vw; min-width: 25px;"
+        zoomable=true/>
+    </a>
+    <a class="spotlight" href="/assets/img/osaka_diaries/crab.jpg">
+        <img src="/assets/img/osaka_diaries/crab.jpg" 
+        loading="lazy" 
+        style="width: 20vw; min-width: 25px;"
+        zoomable=true/>
+    </a>
 </div>
 
 ---
