@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -21,6 +22,7 @@ group :jekyll_plugins do
     gem 'terser'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'observer'
 end
 group :other_plugins do
     gem 'css_parser'
